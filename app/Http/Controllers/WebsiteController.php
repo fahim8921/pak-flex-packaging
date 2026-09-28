@@ -65,6 +65,14 @@ class WebsiteController extends Controller
             report($error);
             return back()->withInput()->withErrors(['submission' => 'We could not save your enquiry. Please try again.']);
         }
-        return redirect('/request-a-quote')->with('reference', $reference);
+        $record = array_merge($data, ['reference' => $reference, 'received_at' => now()->toIso8601String()]);
+        try {
+            app(\App\Services\EnquiryNotification::class)->send($record);
+        } catch (\Throwable $error) {
+            // The enquiry is already saved; a notification failure must not lose it.
+            report($error);
+        }
+        $summary = 'Hello PakFlex Packaging, I submitted enquiry '.$reference.'. Product: '.(config('pakflex.products.'.$data['product'].'.name') ?? 'Needs guidance').'. Please review my packaging requirement.';
+        return redirect('/request-a-quote')->with('reference', $reference)->with('whatsapp_summary', $summary);
     }
 }

@@ -53,4 +53,27 @@ class PackagingWebsiteTest extends TestCase
         Storage::shouldReceive('put')->once()->andReturn(false);
         $this->post('/request-a-quote', $this->enquiry())->assertSessionHasErrors('submission')->assertSessionMissing('reference');
     }
+
+    public function test_configured_sales_notification_and_whatsapp_reference(): void
+    {
+        Storage::fake('local');
+        \Illuminate\Support\Facades\Mail::fake();
+        config(['pakflex.enquiry_email' => 'sales@example.com', 'mail.default' => 'smtp']);
+        $this->post('/request-a-quote', $this->enquiry())->assertRedirect('/request-a-quote')->assertSessionHas('whatsapp_summary');
+        $reference = session('reference');
+        \Illuminate\Support\Facades\Mail::assertSent(\App\Mail\PackagingEnquiry::class, fn ($mail) => $mail->hasTo('sales@example.com') && $mail->enquiry['reference'] === $reference);
+        $this->assertStringContainsString('sent', Storage::disk('local')->get('enquiries/'.$reference.'/notification.json'));
+        $this->get('/request-a-quote')->assertSee('Follow up on WhatsApp')->assertSee($reference);
+    }
+
+    public function test_email_failure_keeps_saved_enquiry_for_retry(): void
+    {
+        Storage::fake('local');
+        config(['pakflex.enquiry_email' => 'sales@example.com', 'mail.default' => 'smtp']);
+        \Illuminate\Support\Facades\Mail::shouldReceive('to')->once()->andThrow(new \RuntimeException('Mail service unavailable'));
+        $this->post('/request-a-quote', $this->enquiry())->assertRedirect('/request-a-quote')->assertSessionHas('reference');
+        $directory = 'enquiries/'.session('reference');
+        Storage::disk('local')->assertExists($directory.'/enquiry.json');
+        $this->assertStringContainsString('failed', Storage::disk('local')->get($directory.'/notification.json'));
+    }
 }

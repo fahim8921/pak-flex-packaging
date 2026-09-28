@@ -7,6 +7,7 @@ return [
     'role' => 'Sales & Business Development',
     'location' => 'Faisalabad, Pakistan',
     'email' => env('PAKFLEX_EMAIL'),
+    'enquiry_email' => env('PAKFLEX_ENQUIRY_EMAIL'),
     'whatsapp' => env('PAKFLEX_WHATSAPP') ?: '+92 304 0891842',
     'phone_display' => '0304 0891842',
     'hero_image' => '/images/bedding-packaging.png',
