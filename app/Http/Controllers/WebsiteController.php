@@ -18,9 +18,9 @@ class WebsiteController extends Controller
         $titles = ['home' => 'Polybags, Films & Flexible Packaging Pakistan', 'about' => 'Packaging Built Around Your Requirements', 'products' => 'Our Packaging Range', 'industries' => 'Packaging for Your Industry', 'custom-packaging' => 'Packaging Designed Around Your Product', 'quality' => 'Quality Starts With Consistent Specifications', 'contact' => 'Let’s Discuss Your Packaging Requirement', 'request-a-quote' => 'Tell Us What You Need', 'privacy' => 'Enquiry Privacy', 'image-credits' => 'Image Credits'];
         $title = $product['name'] ?? $industry['name'] ?? $titles[$page] ?? 'PakFlex Packaging';
         $descriptions = [
-            'home' => 'PakFlex Packaging supplies customized polybags, garment packaging, PVC and PE films, shrink film and stretch film for manufacturers and exporters in Pakistan.',
+            'home' => 'PakFlex Packaging supplies customized polybags, PP, PEVA, EVA, flyer and non-woven bags, garment packaging, PVC and PE films, shrink film and stretch film for manufacturers and exporters in Pakistan.',
             'about' => 'Meet PakFlex Packaging, a Faisalabad-based flexible packaging supplier focused on clear specifications for manufacturers, exporters and business buyers.',
-            'products' => 'Explore polybags, garment packaging, PVC, PE, shrink and stretch films, BOPP and custom printed packaging from PakFlex Packaging in Pakistan.',
+            'products' => 'Explore polybags, PP and PL laminated bags, PEVA, EVA, flyer and non-woven bags, garment packaging, PVC, PE, shrink and stretch films, BOPP and custom printed packaging from PakFlex Packaging in Pakistan.',
             'industries' => 'Packaging solutions for textile, apparel, home textile, industrial, logistics and retail buyers. Discuss your industry requirements with PakFlex.',
             'custom-packaging' => 'Specify your packaging size, material, thickness, printing and closure. Start a custom packaging enquiry with PakFlex Packaging in Faisalabad.',
             'quality' => 'Discover PakFlex Packaging’s approach to agreed material, dimensions, thickness, printing, sealing and packing specifications.',

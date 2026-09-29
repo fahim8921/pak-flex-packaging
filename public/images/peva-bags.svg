@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="t">
+<title id="t">Soft PEVA zipper bag with carry handle and piped edges holding a folded comforter</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f8f8"/><stop offset="1" stop-color="#e9eeec"/></linearGradient>
+<linearGradient id="quilt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9d8c4"/><stop offset="1" stop-color="#d6bea3"/></linearGradient>
+<linearGradient id="film" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".62"/><stop offset=".5" stop-color="#fff" stop-opacity=".38"/><stop offset="1" stop-color="#fff" stop-opacity=".55"/></linearGradient>
+<pattern id="stitch" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 30 H60" stroke="#b99a7a" stroke-width="2" stroke-dasharray="7 6"/></pattern>
+<pattern id="stitch2" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><path d="M0 30 H60" stroke="#b99a7a" stroke-width="2" stroke-dasharray="7 6"/></pattern>
+<pattern id="teeth" width="12" height="16" patternUnits="userSpaceOnUse"><rect x="1" y="2" width="7" height="12" rx="2" fill="#6f7a78"/></pattern>
+<filter id="sh" x="-50%" y="-400%" width="200%" height="900%"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#bg)"/>
+<ellipse cx="700" cy="880" rx="460" ry="28" fill="#1c2b28" opacity=".16" filter="url(#sh)"/>
+<!-- handle -->
+<path d="M560 250 Q560 120 700 120 Q840 120 840 250" fill="none" stroke="#1f7a4d" stroke-width="30" stroke-linecap="round"/>
+<path d="M560 250 Q560 120 700 120 Q840 120 840 250" fill="none" stroke="#2f9a63" stroke-width="10" stroke-linecap="round" opacity=".6"/>
+<!-- quilt inside -->
+<rect x="290" y="300" width="820" height="520" rx="60" fill="url(#quilt)"/>
+<rect x="290" y="300" width="820" height="520" rx="60" fill="url(#stitch)"/>
+<rect x="290" y="300" width="820" height="520" rx="60" fill="url(#stitch2)"/>
+<path d="M300 560 Q700 610 1100 560" stroke="#c6a988" stroke-width="4" fill="none"/>
+<path d="M300 700 Q700 750 1100 700" stroke="#c6a988" stroke-width="3" fill="none" opacity=".7"/>
+<!-- frosted film -->
+<rect x="250" y="250" width="900" height="610" rx="30" fill="url(#film)"/>
+<rect x="250" y="250" width="900" height="610" rx="30" fill="none" stroke="#1f7a4d" stroke-width="16"/>
+<!-- zipper -->
+<rect x="290" y="276" width="820" height="20" rx="4" fill="#4f5a58"/>
+<rect x="290" y="278" width="820" height="16" fill="url(#teeth)"/>
+<rect x="1020" y="270" width="54" height="32" rx="8" fill="#c9d1cf" stroke="#8e9896" stroke-width="2"/>
+<rect x="1040" y="298" width="16" height="44" rx="6" fill="#a8b2b0" stroke="#8e9896" stroke-width="2"/>
+<!-- insert card -->
+<rect x="360" y="380" width="260" height="170" rx="8" fill="#fff" opacity=".95"/>
+<rect x="385" y="410" width="120" height="16" rx="4" fill="#1f7a4d"/>
+<rect x="385" y="444" width="200" height="10" rx="4" fill="#c9d4d0"/>
+<rect x="385" y="466" width="170" height="10" rx="4" fill="#c9d4d0"/>
+<rect x="385" y="500" width="90" height="26" rx="4" fill="#e7efe9"/>
+<!-- highlights -->
+<path d="M300 320 L470 320 L330 820 L300 820 Z" fill="#fff" opacity=".35"/>
+<path d="M880 320 L960 320 L760 840 L690 840 Z" fill="#fff" opacity=".18"/>
+<!-- callouts -->
+<g font-family="Arial, sans-serif" fill="#23413a">
+<circle cx="1110" cy="286" r="6" fill="#1f7a4d"/><path d="M1116 286 H1220" stroke="#1f7a4d" stroke-width="2"/>
+<text x="1232" y="280" font-size="26" font-weight="700">Zip closure</text>
+<text x="1232" y="308" font-size="19" fill="#5c6f6a">easy open &amp; reuse</text>
+<circle cx="840" cy="170" r="6" fill="#1f7a4d"/><path d="M846 170 H1220" stroke="#1f7a4d" stroke-width="2"/>
+<text x="1232" y="164" font-size="26" font-weight="700">Carry handle</text>
+<text x="1232" y="192" font-size="19" fill="#5c6f6a">fabric or PVC strap</text>
+<circle cx="1150" cy="620" r="6" fill="#1f7a4d"/><path d="M1156 620 H1220" stroke="#1f7a4d" stroke-width="2"/>
+<text x="1232" y="604" font-size="26" font-weight="700">Soft PEVA film</text>
+<text x="1232" y="634" font-size="19" fill="#5c6f6a">frosted, chlorine-free</text>
+<text x="1232" y="660" font-size="19" fill="#5c6f6a">PVC alternative</text>
+<circle cx="250" cy="760" r="6" fill="#1f7a4d"/><path d="M244 760 H120" stroke="#1f7a4d" stroke-width="2"/>
+<text x="40" y="720" font-size="24" font-weight="700">Piped</text>
+<text x="40" y="748" font-size="24" font-weight="700">edges</text>
+</g>
+</svg>

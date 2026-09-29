@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="t">
+<title id="t">Non-woven fabric tote bag with loop handles and a D-cut non-woven bag, each with a logo print area</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f8f8"/><stop offset="1" stop-color="#e9eeec"/></linearGradient>
+<linearGradient id="green" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1c7248"/><stop offset=".5" stop-color="#25875a"/><stop offset="1" stop-color="#1a6a43"/></linearGradient>
+<linearGradient id="navy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1d3d62"/><stop offset=".5" stop-color="#28507c"/><stop offset="1" stop-color="#1b395c"/></linearGradient>
+<filter id="fabric" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".55 .08" numOctaves="3" seed="9" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .22 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+<filter id="fabric2" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".08 .55" numOctaves="3" seed="3" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .18 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1.6" fill="#000" opacity=".12"/></pattern>
+<filter id="sh" x="-50%" y="-400%" width="200%" height="900%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#bg)"/>
+<ellipse cx="520" cy="880" rx="300" ry="24" fill="#1c2b28" opacity=".16" filter="url(#sh)"/>
+<ellipse cx="1050" cy="880" rx="210" ry="20" fill="#1c2b28" opacity=".14" filter="url(#sh)"/>
+
+<!-- Loop-handle tote -->
+<g>
+<path d="M360 360 Q360 150 520 150 Q680 150 680 360" fill="none" stroke="#1a6a43" stroke-width="34"/>
+<path d="M360 360 Q360 150 520 150 Q680 150 680 360" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="8 7" opacity=".45"/>
+<rect x="260" y="330" width="520" height="540" rx="6" fill="url(#green)"/>
+<rect x="260" y="330" width="520" height="540" rx="6" fill="url(#dots)"/>
+<rect x="260" y="330" width="520" height="540" rx="6" fill="#fff" filter="url(#fabric)"/>
+<rect x="260" y="330" width="520" height="540" rx="6" fill="#000" filter="url(#fabric2)"/>
+<rect x="260" y="330" width="520" height="56" fill="#16603c"/>
+<path d="M270 392 H770" stroke="#fff" stroke-width="2" stroke-dasharray="10 8" opacity=".5"/>
+<path d="M272 400 V858 M768 400 V858" stroke="#fff" stroke-width="2" stroke-dasharray="10 8" opacity=".35"/>
+<rect x="340" y="370" width="46" height="50" fill="#1a6a43"/><rect x="654" y="370" width="46" height="50" fill="#1a6a43"/>
+<path d="M346 378 l34 34 M380 378 l-34 34 M660 378 l34 34 M694 378 l-34 34" stroke="#fff" stroke-width="2" opacity=".5"/>
+<rect x="370" y="520" width="300" height="200" rx="14" fill="#fff" opacity=".94"/>
+<rect x="370" y="520" width="300" height="200" rx="14" fill="none" stroke="#1f7a4d" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="520" y="616" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1f7a4d">YOUR LOGO</text>
+<text x="520" y="652" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" letter-spacing="2" fill="#6b7f78">PRINT AREA</text>
+</g>
+
+<!-- D-cut bag -->
+<g>
+<path d="M880 430 H1220 V870 H880 Z" fill="url(#navy)"/>
+<path d="M880 430 H1220 V870 H880 Z" fill="url(#dots)"/>
+<rect x="880" y="430" width="340" height="440" fill="#fff" filter="url(#fabric)"/>
+<rect x="995" y="470" width="110" height="36" rx="18" fill="#e9eeec"/>
+<path d="M882 440 V868 M1218 440 V868 M882 868 H1218" stroke="#fff" stroke-width="2" stroke-dasharray="8 7" opacity=".35"/>
+<rect x="940" y="600" width="220" height="140" rx="12" fill="#fff" opacity=".92"/>
+<text x="1050" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#28507c">LOGO</text>
+</g>
+
+<!-- callouts -->
+<g font-family="Arial, sans-serif" fill="#23413a">
+<circle cx="680" cy="250" r="6" fill="#1f7a4d"/><path d="M686 250 H1000" stroke="#1f7a4d" stroke-width="2"/>
+<text x="1012" y="244" font-size="26" font-weight="700">Loop handles</text>
+<text x="1012" y="274" font-size="19" fill="#5c6f6a">stitched or heat-sealed</text>
+<circle cx="1105" cy="488" r="6" fill="#1f7a4d"/><path d="M1111 488 H1260" stroke="#1f7a4d" stroke-width="2"/>
+<text x="1272" y="482" font-size="26" font-weight="700">D-cut</text>
+<text x="1272" y="512" font-size="19" fill="#5c6f6a">die-cut handle</text>
+<circle cx="260" cy="752" r="6" fill="#1f7a4d"/><path d="M254 752 H180" stroke="#1f7a4d" stroke-width="2"/>
+<text x="30" y="740" font-size="24" font-weight="700">Non-woven</text>
+<text x="30" y="770" font-size="24" font-weight="700">PP fabric</text>
+<text x="30" y="798" font-size="18" fill="#5c6f6a">reusable, strong</text>
+<text x="30" y="822" font-size="18" fill="#5c6f6a">GSM to order</text>
+</g>
+</svg>

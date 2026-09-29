@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="t">
+<title id="t">Crystal-clear PP bags with self-adhesive flaps holding a folded shirt and socks</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f8f8"/><stop offset="1" stop-color="#e9eeec"/></linearGradient>
+<linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34557d"/><stop offset="1" stop-color="#23405f"/></linearGradient>
+<linearGradient id="sock" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b6470"/><stop offset="1" stop-color="#3a4049"/></linearGradient>
+<linearGradient id="gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".75"/><stop offset=".5" stop-color="#fff" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity=".45"/></linearGradient>
+<filter id="sh" x="-50%" y="-400%" width="200%" height="900%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#bg)"/>
+<ellipse cx="600" cy="880" rx="330" ry="26" fill="#1c2b28" opacity=".14" filter="url(#sh)"/>
+<ellipse cx="1110" cy="880" rx="170" ry="20" fill="#1c2b28" opacity=".14" filter="url(#sh)"/>
+<!-- Large bag -->
+<g>
+<rect x="330" y="150" width="540" height="60" rx="4" fill="#fff" opacity=".5" stroke="#b8c6c9" stroke-width="2"/>
+<rect x="350" y="166" width="500" height="26" rx="3" fill="#fff" stroke="#d6dfe1"/>
+<text x="600" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" letter-spacing="3" fill="#9aa9ac">PEEL &amp; SEAL</text>
+<rect x="330" y="210" width="540" height="660" rx="6" fill="#fff" opacity=".25"/>
+<!-- folded shirt -->
+<rect x="380" y="270" width="440" height="560" rx="10" fill="url(#shirt)"/>
+<path d="M530 270 L600 350 L670 270 Z" fill="#1c3552"/>
+<path d="M510 262 L600 300 L690 262 L690 278 L600 362 L510 278 Z" fill="#3d6391"/>
+<path d="M600 300 L560 250 L640 250 Z" fill="#d9dfe6" opacity=".9"/>
+<line x1="600" y1="362" x2="600" y2="560" stroke="#1c3552" stroke-width="4"/>
+<circle cx="600" cy="400" r="7" fill="#e8ecef"/><circle cx="600" cy="460" r="7" fill="#e8ecef"/><circle cx="600" cy="520" r="7" fill="#e8ecef"/>
+<path d="M380 700 H820" stroke="#1c3552" stroke-width="3" opacity=".6"/>
+<!-- bag film + highlights -->
+<rect x="330" y="210" width="540" height="660" rx="6" fill="none" stroke="#aebdc1" stroke-width="3"/>
+<line x1="330" y1="218" x2="870" y2="218" stroke="#c6d2d4" stroke-width="3"/>
+<path d="M350 230 L520 230 L360 760 L350 760 Z" fill="url(#gloss)" opacity=".7"/>
+<path d="M700 230 L760 230 L520 860 L470 860 Z" fill="#fff" opacity=".22"/>
+<path d="M840 240 L860 240 L860 850 L800 850 Z" fill="#fff" opacity=".35"/>
+</g>
+<!-- Small bag -->
+<g>
+<rect x="990" y="400" width="240" height="44" rx="3" fill="#fff" opacity=".5" stroke="#b8c6c9" stroke-width="2"/>
+<rect x="1002" y="412" width="216" height="20" rx="2" fill="#fff" stroke="#d6dfe1"/>
+<rect x="990" y="444" width="240" height="426" rx="5" fill="#fff" opacity=".25"/>
+<path d="M1068 480 h76 v190 q0 22 22 22 h20 q30 0 30 32 v8 q0 34 -34 34 h-66 q-48 0 -48 -48 Z" fill="#2f353d"/>
+<path d="M1030 500 h76 v190 q0 22 22 22 h24 q30 0 30 32 v8 q0 34 -34 34 h-70 q-48 0 -48 -48 Z" fill="url(#sock)"/>
+<path d="M1030 516 h76 M1030 532 h76 M1030 548 h76" stroke="#79838f" stroke-width="3"/>
+<path d="M1030 740 q14 -8 30 0" stroke="#79838f" stroke-width="3" fill="none"/>
+<rect x="990" y="444" width="240" height="426" rx="5" fill="none" stroke="#aebdc1" stroke-width="3"/>
+<path d="M1005 460 L1080 460 L1010 800 L1005 800 Z" fill="url(#gloss)" opacity=".7"/>
+<path d="M1190 470 L1215 470 L1150 860 L1120 860 Z" fill="#fff" opacity=".25"/>
+</g>
+<!-- callouts -->
+<g font-family="Arial, sans-serif" fill="#23413a">
+<circle cx="870" cy="180" r="6" fill="#1f7a4d"/><path d="M876 180 H1000" stroke="#1f7a4d" stroke-width="2"/>
+<text x="1010" y="175" font-size="26" font-weight="700">Self-adhesive flap</text>
+<text x="1010" y="205" font-size="20" fill="#5c6f6a">Lip &amp; tape closure</text>
+<circle cx="340" cy="520" r="6" fill="#1f7a4d"/><path d="M334 520 H200" stroke="#1f7a4d" stroke-width="2"/>
+<text x="60" y="500" font-size="26" font-weight="700">Crystal-clear</text>
+<text x="60" y="530" font-size="26" font-weight="700">PP film</text>
+<text x="60" y="560" font-size="20" fill="#5c6f6a">High gloss, crisp feel</text>
+</g>
+</svg>
