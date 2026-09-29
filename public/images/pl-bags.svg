@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="t">
+<title id="t">Plain and printed PL bags in three sizes</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f8f8"/><stop offset="1" stop-color="#e9eeec"/></linearGradient>
+<linearGradient id="film" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#e8eff0"/><stop offset="1" stop-color="#f7fafa"/></linearGradient>
+<linearGradient id="gloss" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="sh" x="-50%" y="-400%" width="200%" height="900%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="url(#bg)"/>
+<ellipse cx="480" cy="880" rx="280" ry="24" fill="#1c2b28" opacity=".15" filter="url(#sh)"/>
+<ellipse cx="930" cy="880" rx="190" ry="20" fill="#1c2b28" opacity=".14" filter="url(#sh)"/>
+<ellipse cx="1260" cy="880" rx="120" ry="16" fill="#1c2b28" opacity=".14" filter="url(#sh)"/>
+
+<!-- Large plain bag (stack of two) -->
+<g>
+<rect x="232" y="182" width="500" height="680" rx="6" fill="#dfe7e8" stroke="#b9c6c8" stroke-width="2"/>
+<rect x="220" y="200" width="500" height="670" rx="6" fill="url(#film)" stroke="#aebdc1" stroke-width="3"/>
+<rect x="220" y="200" width="500" height="26" fill="#e1e9ea"/>
+<line x1="220" y1="226" x2="720" y2="226" stroke="#b9c6c8" stroke-width="2"/>
+<line x1="220" y1="846" x2="720" y2="846" stroke="#b9c6c8" stroke-width="3"/>
+<rect x="260" y="240" width="110" height="610" fill="url(#gloss)" opacity=".8"/>
+<rect x="560" y="240" width="60" height="610" fill="url(#gloss)" opacity=".6"/>
+</g>
+
+<!-- Medium printed bag -->
+<g>
+<rect x="780" y="400" width="300" height="470" rx="5" fill="url(#film)" stroke="#aebdc1" stroke-width="3"/>
+<rect x="780" y="400" width="300" height="22" fill="#e1e9ea"/>
+<line x1="780" y1="850" x2="1080" y2="850" stroke="#b9c6c8" stroke-width="3"/>
+<rect x="830" y="520" width="200" height="130" rx="10" fill="#1f7a4d"/>
+<text x="930" y="596" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">YOUR LOGO</text>
+<rect x="860" y="690" width="140" height="10" rx="5" fill="#2d5f93" opacity=".6"/>
+<rect x="880" y="712" width="100" height="8" rx="4" fill="#2d5f93" opacity=".4"/>
+<rect x="800" y="430" width="60" height="410" fill="url(#gloss)" opacity=".7"/>
+</g>
+
+<!-- Small plain bag -->
+<g>
+<rect x="1150" y="600" width="220" height="270" rx="4" fill="url(#film)" stroke="#aebdc1" stroke-width="3"/>
+<rect x="1150" y="600" width="220" height="18" fill="#e1e9ea"/>
+<line x1="1150" y1="854" x2="1370" y2="854" stroke="#b9c6c8" stroke-width="3"/>
+<rect x="1170" y="625" width="40" height="220" fill="url(#gloss)" opacity=".7"/>
+</g>
+
+<!-- callouts -->
+<g font-family="Arial, sans-serif" fill="#23413a">
+<circle cx="720" cy="300" r="6" fill="#1f7a4d"/><path d="M726 300 H880" stroke="#1f7a4d" stroke-width="2"/>
+<text x="892" y="294" font-size="26" font-weight="700">Plain PL bags</text>
+<text x="892" y="324" font-size="19" fill="#5c6f6a">for everyday product packing</text>
+<circle cx="1030" cy="520" r="6" fill="#1f7a4d"/><path d="M1036 520 H1160" stroke="#1f7a4d" stroke-width="2"/>
+<text x="1172" y="514" font-size="26" font-weight="700">Printed option</text>
+<text x="1172" y="544" font-size="19" fill="#5c6f6a">your logo &amp; details</text>
+<text x="1150" y="930" font-size="18" fill="#5c6f6a">Size &amp; thickness to order</text>
+</g>
+</svg>

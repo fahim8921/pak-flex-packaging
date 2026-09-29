@@ -4,7 +4,7 @@
         'Custom Printed Packaging', 'BOPP Packaging' => ['printed-packaging.png', 'Folded garments inside printed clear packaging bags'],
         'Polybags' => ['garment-packaging.png', 'Shirts and socks inside transparent protective polybags'],
         'PP Bags' => ['pp-bags.svg', 'Crystal-clear PP bags with self-adhesive flaps holding a folded shirt and socks'],
-        'PL Laminated Bags' => ['pl-laminated-bags.svg', 'Printed laminated pouch and bag with a diagram of the laminated film layers'],
+        'PL Bags' => ['pl-bags.svg', 'Plain and printed PL bags in different sizes'],
         'PEVA (PPE) Bags' => ['peva-bags.svg', 'Soft PEVA zipper bag with carry handle holding a folded comforter'],
         'Flyer Bags' => ['flyer-bags.jpg', 'Grey and white courier flyer bags with self-seal strips'],
         'EVA Bags (China)' => ['eva-bags.svg', 'Frosted matte EVA slider-zipper bags in three sizes'],
